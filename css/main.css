@@ -1,0 +1,150 @@
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  color: #333;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialised;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 56px;
+  font-weight: bold;
+  font-family: "CleanvertisingLight", sans-serif;
+  margin: 0;
+}
+
+section {
+  padding: 58px 0 18px;
+}
+
+section.s_dark h2, section.s_dark h3, section.s_dark p {
+  color: #fff;
+}
+
+section h2 {
+  color: #003469;
+  line-height: 56px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: "CleanvertisingLight", sans-serif;
+  text-align: center;
+  margin-top: 0;
+  font-weight: none;
+}
+
+p strong {
+  font-family: "RobotoBold", sans-serif;
+  font-weight: normal;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+  box-shadow: #67bc5c 0 0 0 2px;
+  background-color: #fff;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+.s_rewview {
+ 
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  min-height: 500px;
+  background-position: top center;
+  
+  
+}
+
+.review_item {
+  color: #fff;
+  text-align: center;
+}
+
+.review_item h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+
+
+.review_item .image_wrap {
+  text-align: center;
+}
+
+.review_item .image_wrap img {
+  width: 165px;
+  height: 230px;
+  
+  display: inline-block;
+  
+}
+
+
+.owl-nav div {
+  width: 29px;
+  height: 33px;
+  background-image: url(../img/arrow.svg);
+ 
+      text-align: center;
+    margin: 0 auto;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+}
+
+.owl-nav div:hover {
+  opacity: 2;
+}
+
+.owl-nav div.owl-next {
+  right: -90px;
+  top: -32px;
+  position: relative;
+  background-position: top right;
+}
+
+@media screen and (max-width: 400px) {
+	.owl-nav {
+    float: left;
+    margin-left: 94px;
+	}
+}
+
+.owl-dots {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.owl-dots .owl-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.owl-dots .owl-dot.active {
+  opacity: .8;
+}
+
+
